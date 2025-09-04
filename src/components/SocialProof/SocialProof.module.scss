@@ -1,0 +1,57 @@
+.testimonialSection {
+  padding: 128px 0;
+  background: #fff;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 64px;
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 24px;
+  letter-spacing: -0.02em;
+}
+
+.testimonial {
+  position: relative;
+}
+
+.quoteIcon {
+  margin-bottom: 32px;
+  color: #d1d5db;
+}
+
+.quote {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  color: #374151;
+  margin-bottom: 48px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.author {
+  text-align: center;
+}
+
+.authorName {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.authorPosition {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 500;
+}

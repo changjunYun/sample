@@ -1,0 +1,109 @@
+.heroSection {
+  position: relative;
+  height: 210vh; // 모바일 기본값
+  background: #000;
+  scroll-snap-align: start;
+  
+  // 데스크톱에서 높이 증가
+  @media (min-width: 769px) {
+    height: 210vh;
+  }
+}
+
+.stage {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.backgroundImage {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  
+  img {
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.leftPanel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #000;
+  z-index: 10;
+}
+
+.rightPanel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: #000;
+  z-index: 10;
+}
+
+.foregroundContent {
+  position: relative;
+  z-index: 20;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 24px;
+  
+  // 모바일에서 패딩 조정
+  @media (max-width: 480px) {
+    padding: 0 16px;
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    padding: 0 20px;
+  }
+}
+
+.textContainer {
+  text-align: center;
+}
+
+.title {
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  margin-bottom: 24px;
+  
+  // 모바일에서 폰트 크기 조정
+  @media (max-width: 480px) {
+    font-size: clamp(2rem, 8vw, 3rem);
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    font-size: clamp(2.5rem, 7vw, 4rem);
+    margin-bottom: 20px;
+  }
+  
+  // 큰 화면에서 최대 크기 제한
+  @media (min-width: 1200px) {
+    font-size: 5rem;
+  }
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: clamp(1.125rem, 2vw, 1.25rem);
+  font-weight: 400;
+  
+  @media (max-width: 480px) {
+    font-size: 1rem;
+  }
+}
