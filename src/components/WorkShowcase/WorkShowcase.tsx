@@ -11,28 +11,28 @@ const portfolioItems = [
     category: 'FASHION',
     title: 'Vogue Editorial',
     model: 'Sarah Kim',
-    image: '/1.jpg'
+    image: '/sample/1.jpg'
   },
   {
     id: 2,
     category: 'COMMERCIAL',
     title: 'Luxury Brand Campaign',
     model: 'Emma Park',
-    image: '/2.jpg'
+    image: '/sample/2.jpg'
   },
   {
     id: 3,
     category: 'RUNWAY',
     title: 'Paris Fashion Week',
     model: 'Jessica Lee',
-    image: '/3.jpg'
+    image: '/sample/3.jpg'
   },
   {
     id: 4,
     category: 'EDITORIAL',
     title: 'Harper\u2019s Bazaar',
     model: 'Sophia Chen',
-    image: '/4.jpg'
+    image: '/sample/4.jpg'
   }
 ];
 

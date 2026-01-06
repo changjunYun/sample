@@ -27,7 +27,7 @@ export default function Hero() {
         {/* 배경 이미지 */}
         <div className={styles.backgroundImage}>
           <Image 
-            src="/1.jpg" 
+            src="/sample/1.jpg" 
             alt="Hero Background" 
             fill 
             priority 
