@@ -6,12 +6,12 @@ import { ArrowRight } from 'lucide-react';
 import styles from './ScrollyStory.module.scss';
 
 const galleryItems = [
-  { id: 1, title: 'Fashion Editorial', image: '/5.jpg' },
-  { id: 2, title: 'Commercial Shoot', image: '/6.jpg' },
-  { id: 3, title: 'Runway Show', image: '/7.jpg' },
-  { id: 4, title: 'Brand Campaign', image: '/8.jpg' },
-  { id: 5, title: 'Magazine Cover', image: '/9.jpg' },
-  { id: 6, title: 'Product Launch', image: '/10.jpg' },
+  { id: 1, title: 'Fashion Editorial', image: '/sample/5.jpg' },
+  { id: 2, title: 'Commercial Shoot', image: '/sample/6.jpg' },
+  { id: 3, title: 'Runway Show', image: '/sample/7.jpg' },
+  { id: 4, title: 'Brand Campaign', image: '/sample/8.jpg' },
+  { id: 5, title: 'Magazine Cover', image: '/sample/9.jpg' },
+  { id: 6, title: 'Product Launch', image: '/sample/10.jpg' },
 ];
 
 export default function ModelGallery() {
